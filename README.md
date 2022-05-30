@@ -1,0 +1,2 @@
+# chat-server
+基于muduo库开发的集群聊天服务器和客户端源码，可以工作在nginx tcp负载均衡环境中，使用mysql数据库，运用了json的序列化和反序列化
