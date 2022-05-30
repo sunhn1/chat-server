@@ -1,0 +1,23 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/home/sunhn1/testjosn/testmuduo'
+/opt/cmake-3.13.0/bin/cmake -S/home/sunhn1/testjosn/testmuduo -B/home/sunhn1/testjosn/testmuduo --check-build-system CMakeFiles/Makefile.cmake 0
+/opt/cmake-3.13.0/bin/cmake -E cmake_progress_start /home/sunhn1/testjosn/testmuduo/CMakeFiles /home/sunhn1/testjosn/testmuduo/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory `/home/sunhn1/testjosn/testmuduo'
+make -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
+make[2]: Entering directory `/home/sunhn1/testjosn/testmuduo'
+cd /home/sunhn1/testjosn/testmuduo && /opt/cmake-3.13.0/bin/cmake -E cmake_depends "Unix Makefiles" /home/sunhn1/testjosn/testmuduo /home/sunhn1/testjosn/testmuduo /home/sunhn1/testjosn/testmuduo /home/sunhn1/testjosn/testmuduo /home/sunhn1/testjosn/testmuduo/CMakeFiles/server.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/home/sunhn1/testjosn/testmuduo'
+make -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+ 
+make[2]: Entering directory `/home/sunhn1/testjosn/testmuduo'
+/opt/cmake-3.13.0/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/sunhn1/testjosn/testmuduo/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/server.dir/muduoserver.cpp.o"
+/usr/bin/c++    -g   -o CMakeFiles/server.dir/muduoserver.cpp.o -c /home/sunhn1/testjosn/testmuduo/muduoserver.cpp
+/opt/cmake-3.13.0/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/sunhn1/testjosn/testmuduo/CMakeFiles --progress-num=2 "Linking CXX executable server"
+/opt/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=
+make[2]: Leaving directory `/home/sunhn1/testjosn/testmuduo'
+/opt/cmake-3.13.0/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/sunhn1/testjosn/testmuduo/CMakeFiles --progress-num=1,2 "Built target server"
+make[1]: Leaving directory `/home/sunhn1/testjosn/testmuduo'
+/opt/cmake-3.13.0/bin/cmake -E cmake_progress_start /home/sunhn1/testjosn/testmuduo/CMakeFiles 0
+make: Leaving directory `/home/sunhn1/testjosn/testmuduo'
+ 
