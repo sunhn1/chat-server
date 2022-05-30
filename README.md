@@ -8,3 +8,9 @@ make
 运行：
 需要nginx的TCP负载均衡
 redis消息队列进行不同服务器之间的通信
+
+bin目录：存放可执行文件
+include目录：存放头文件
+src目录：存放源文件
+build目录：存放编译过程中产生的临时中间文件
+thridpatry:第三方库文件
